@@ -1,6 +1,7 @@
 @import url(header.css);
 @import url(blogs.css);
 @import url(footer.css);
+@import url(blog-post.css);
 
 *,
 *::before,
@@ -72,7 +73,8 @@ strong {
 
 /* Buttons */
 .blog-posts__content-btn,
-.footer-section__top-btn {
+.footer-section__top-btn,
+.blog__sidebar-btn {
   background-color: var(--clr-accent);
   border-radius: 15px;
   color: var(--clr-dark);
@@ -88,7 +90,8 @@ strong {
 
 
 .blog-posts__content-btn:hover,
-.footer-section__top-btn:hover {
+.footer-section__top-btn:hover,
+.blog__sidebar-btn:hover {
   border: 2px solid var(--clr-shade);
   color: var(--clr-shade);
   transform: scale(1.1);
@@ -106,6 +109,7 @@ h3 {
 
 
 h1 {
+  font-family: var(--ff-title);
   font-size: var(--fs-h1);
 }
 

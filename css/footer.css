@@ -22,12 +22,22 @@
 }
 
 
-.footer-section__social-link {
+.footer-section__social-link,
+.footer-section__copyright {
   color: inherit;
   text-decoration: none;
 }
 
 
-.footer-section__social-link:hover {
+.footer-section__social-link:hover,
+.footer-section__copyright:hover {
   opacity: 0.7;
+}
+
+
+@media (max-width: 800px) {
+  .footer-section__contact {
+    font-size: calc(var(--fs-h2) * 0.60);
+
+  }
 }

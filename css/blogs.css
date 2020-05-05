@@ -45,6 +45,7 @@
 
 .blog-posts__content-title {
   color: var(--clr-dark);
+  font-family: var(--ff-title);
   grid-area: title;
 }
 

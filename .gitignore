@@ -1,2 +1,4 @@
 *.pdf
-/blog-post.html
+/post-template.html
+../blogs/post-template.html
+/blogs/post-template.html
